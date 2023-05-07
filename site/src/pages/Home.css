@@ -1,0 +1,46 @@
+*{
+    font-family:Helvetica,Arial,sans-serif;
+}
+/* Buttons */
+.Buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22%;
+    margin-bottom: 15%;
+  }
+  button{
+    width: 220px;
+    height: 68px;
+    border-radius: 25px;
+    margin: 40px;
+    cursor: pointer;
+    border: none;
+  }
+  .Button-Text{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .LinkedIn{
+    background: rgba(229, 46, 253, 0.200);
+  }
+  .Cv{
+    background: rgba(241, 22, 95, 0.200);
+  }
+  .Github{
+    background: rgba(29, 29, 29, 0.200);
+  }
+
+span{
+  color: rgb(0, 0, 0); 
+}
+.LinkedIn span{
+    background: rgba(255, 255, 255, 0);
+}
+.Cv span{
+    background: rgba(255, 255, 255, 0);
+}
+.Github span{
+    background: rgba(255, 255, 255, 0);
+}
