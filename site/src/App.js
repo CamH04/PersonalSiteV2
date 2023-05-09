@@ -48,7 +48,7 @@ function App() {
     <footer>
       <div class="grid center">
         <div class="col-1 col-1-m col-1-s">
-          <img src="./Wouter de Bres—Product Designer _ I help startups design simpler user experiences._files/bres.svg"></img>
+          <img src={logo}></img>
         </div>
         <div class="col-1 hide-m"></div>
         <div class="col-4 col-4-m col-3-s">
