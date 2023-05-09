@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
+import GitLogo from './img/GitHubLogo.png'
+import LinkLogo from './img/LinkInLogo.png'
 
 function App() {
   return (
@@ -55,8 +57,8 @@ function App() {
           </p>
           <ul class="contact">
             <li><Link to="/Contact" class="button">Get in touch</Link></li>
-            <li><a href="https://www.linkedin.com/in/cameron-haynes-778056233/" target="_blank" class="social"><img src="" alt="LinkedIn"></img></a></li>
-            <li><a href="https://github.com/CamH04" target="_blank" class="social"><img src="" alt="github"></img></a></li>
+            <li><a href="https://www.linkedin.com/in/cameron-haynes-778056233/" target="_blank" class="social"><img src={LinkLogo} alt="LinkedIn" width="30px" height="30px"></img></a></li>
+            <li><a href="https://github.com/CamH04" target="_blank" class="social"><img src={ GitLogo } alt="github" width="30px" height="30px"></img></a></li>
           </ul>
         </div>
         <div class="col-2 hide-m"></div>
