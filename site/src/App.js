@@ -18,6 +18,7 @@ function App() {
         <li id="nav-contact" class="link col-1 col-1-m col-1-s"><Link to="/Contact">Contact</Link></li>
       </ul>
     </nav> 
+    
     <div class="grid-overlay">
         <div class="grid">
             <div class="line"></div>
@@ -50,7 +51,7 @@ function App() {
         <div class="col-1 hide-m"></div>
         <div class="col-4 col-4-m col-3-s">
           <p>
-            Balls
+            Dedication and the willingness to go on is what seperates me from other programmers
           </p>
           <ul class="contact">
             <li><Link to="/Contact" class="button">Get in touch</Link></li>
