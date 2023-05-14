@@ -1,19 +1,19 @@
-import logo from './img/bres.png';
+import logo from './pages/img/bres.png';
 import './App.css';
 import {Route, Routes} from "react-router-dom"
 import { Link } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
-import GitLogo from './img/GitHubLogo.png'
-import LinkLogo from './img/LinkInLogo.png'
+import GitLogo from './pages/img/GitHubLogo.png'
+import LinkLogo from './pages/img/LinkInLogo.png'
 
 function App() {
   return (
     <div>      
       <nav>
       <ul class="grid">
-        <li class="logo col-1 col-1-m"><a href="/"><img src={ logo } ></img></a></li>
+        <li class="logo col-1 col-1-m"><a href="/"><img src={ logo }></img></a></li>
         <li class="col-8 col-2-m hide-s"></li>
         <li id="nav-home" class="link col-1 col-1-m hide-s"><Link to="/">Home</Link></li>
         <li id="nav-about" class="link col-1 col-1-m col-1-s"><Link to="/About">About</Link></li>
