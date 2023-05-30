@@ -1,4 +1,5 @@
 import './Home.css';
+import Gif1 from './img/1.gif';
 
 export default function Home(){
     return(
@@ -23,6 +24,32 @@ export default function Home(){
                 <a href="https://github.com/CamH04">
                 <button type="button" class="Github" >  <span class="Button-Text Github"> Github </span></button>
                 </a>
+            </div>
+        </section>
+
+
+        <section class="project-1">
+            <div class="proj">
+                <p class="big">
+                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
+                </p>
+                <img id="ui" src={Gif1} width="300px" height="300px"></img>
+            </div>
+        </section>
+        <section class="project-2">
+            <div class="proj">
+                <img id="ui" src={Gif1} width="300px" height="300px"></img>
+                <p class="big">
+                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
+                </p>
+            </div>
+        </section>
+        <section class="project-3">
+            <div class="proj">
+                <p class="big">
+                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
+                </p>
+                <img id="ui" src={Gif1} width="300px" height="300px"></img>
             </div>
         </section>
     </section>
