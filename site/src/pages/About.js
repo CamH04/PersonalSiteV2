@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom"
 import { Link } from 'react-router-dom';
 import GitHubLogo from './img/GitHubLogo.png';
 import LinkInLogo from './img/LinkInLogo.png';
+import ElecGif from './img/gif.webp'
 
 export default function About (){
     return(
@@ -15,6 +16,7 @@ export default function About (){
                     <li><Link to="/contact" class="button">Get in touch</Link></li>
                     <li><a href="https://github.com/CamH04" target="_blank" class="social"><img src={GitHubLogo}alt="GitHub" width="30px" height="30px"></img></a></li>
                     <li><a href="https://www.linkedin.com/in/cameron-haynes-778056233/" target="_blank" class="social"><img src={LinkInLogo} alt="LinkedIn" width="30px" height="30px"></img></a></li>
+                    <img class="help gif" src={ElecGif} width="150px" height="150px"></img>
                     </ul>
                 </div>
                 <div class="col-6 col-4-m col-3-s">
@@ -35,7 +37,6 @@ export default function About (){
                     </p>
                 </div>
                 <div class="col-12">
-                    <h1 class="help"> TEST </h1>
                 </div>
             </div>
         </section>

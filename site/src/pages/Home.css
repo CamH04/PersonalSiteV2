@@ -52,8 +52,11 @@ span{
   transform-origin: top left;
   transform: 0%;
 }
-.proj {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 10%;
+
+.GOTOTHERIGHTIBEG{
+  margin-left: 50%;
+}
+
+.gap{
+  margin-bottom: 12%;
 }

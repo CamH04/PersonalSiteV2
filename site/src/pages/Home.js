@@ -1,5 +1,7 @@
 import './Home.css';
-import Gif1 from './img/1.gif';
+import Gif1 from './img/DeGif.gif';
+import Gif2 from './img/FiddlesticksGif.gif';
+import CV from './img/CV.docx'
 
 export default function Home(){
     return(
@@ -18,7 +20,7 @@ export default function Home(){
                 <a href="https://www.linkedin.com/in/cameron-haynes-778056233/">
                 <button type="button" class="LinkedIn"> <span class="Button-Text LinkedIn"> LinkedIn </span></button>
                 </a>
-                <a href=" ">
+                <a href={CV}>
                 <button type="button" class="Cv">  <span class="Button-Text Cv"> Cv </span></button>
                 </a>
                 <a href="https://github.com/CamH04">
@@ -28,28 +30,28 @@ export default function Home(){
         </section>
 
 
-        <section class="project-1">
-            <div class="proj">
-                <p class="big">
-                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
-                </p>
-                <img id="ui" src={Gif1} width="300px" height="300px"></img>
+        <section class="projects">
+            <div class="project grid center gap">  
+                <a href="" class="col-8 col-6-m col-3-s project-image">
+                    <img id="ui" src={Gif1} width="480" height="270"></img>
+                </a>
+                <div class="col-3 col-6-m col-3-s center ">
+                <h2>
+                    <a href="https://github.com/CamH04/Decrypt-Website">Base64, Hex or Binary translation with a Ceaser Cipher</a>
+                </h2>
+                </div>
             </div>
-        </section>
-        <section class="project-2">
-            <div class="proj">
-                <img id="ui" src={Gif1} width="300px" height="300px"></img>
-                <p class="big">
-                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
-                </p>
-            </div>
-        </section>
-        <section class="project-3">
-            <div class="proj">
-                <p class="big">
-                    Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1
-                </p>
-                <img id="ui" src={Gif1} width="300px" height="300px"></img>
+
+
+            <div class="project grid center gap">  
+                <div class="col-3 col-6-m col-3-s center">
+                <h2>
+                    <a href="https://cool-seahorse-c97407.netlify.app">A Website for an artist called "Fiddlesticks_" for his music project</a>
+                </h2>
+                </div>
+                <a href="" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG">
+                    <img id="ui" src={Gif2} width="480" height="270"></img>
+                </a>
             </div>
         </section>
     </section>
