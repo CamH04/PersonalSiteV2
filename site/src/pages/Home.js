@@ -32,8 +32,8 @@ export default function Home(){
 
         <section class="projects">
             <div class="project grid center gap">  
-                <a href="" class="col-8 col-6-m col-3-s project-image">
-                    <img id="ui" src={Gif1} width="480" height="270"></img>
+                <a href="https://github.com/CamH04/Decrypt-Website" class="col-8 col-6-m col-3-s project-image">
+                    <img id="ui" src={Gif1} width="480" height="270" alt="help"></img>
                 </a>
                 <div class="col-3 col-6-m col-3-s center ">
                 <h2>
@@ -49,8 +49,8 @@ export default function Home(){
                     <a href="https://cool-seahorse-c97407.netlify.app">A Website for an artist called "Fiddlesticks_" for his music project</a>
                 </h2>
                 </div>
-                <a href="" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG">
-                    <img id="ui" src={Gif2} width="480" height="270"></img>
+                <a href="https://cool-seahorse-c97407.netlify.app" class="col-8 col-6-m col-3-s project-image GOTOTHERIGHTIBEG">
+                    <img id="ui" src={Gif2} width="480" height="270" alt="help"></img>
                 </a>
             </div>
         </section>

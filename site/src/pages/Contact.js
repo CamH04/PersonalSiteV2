@@ -3,6 +3,7 @@ import './Contact.css';
 export default function Contact (){
     return(
         <section>
+            <script src="./sc"></script>
             <div class="grid">
             <div class="col-7 col-6-m col-3-s">
                 <h1>Hello!</h1>
@@ -19,6 +20,7 @@ export default function Contact (){
                 <p class="light">Connect on LinkedIn</p>
                 <p class="big"><a href="https://www.linkedin.com/in/cameron-haynes-778056233/">linkedin.com/cameron-haynes/</a></p>
             </div>
+            
             </div>
         </section>
     );
