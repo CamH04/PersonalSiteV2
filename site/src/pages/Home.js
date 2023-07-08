@@ -11,7 +11,7 @@ export default function Home(){
             <div class="col-11 col-6-m col-3-s center">
             <div class="text-to-center">
                 <p class="name-text">Cameron Haynes - Programmer</p>
-                <h1 class="name-text2">I like to <span> code things</span></h1>
+                <h1 class="name-text2">I like to code things </h1>
             </div>
             </div>
         </div>

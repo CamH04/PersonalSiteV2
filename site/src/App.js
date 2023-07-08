@@ -15,9 +15,9 @@ function App() {
       <ul class="grid">
         <li class="logo col-1 col-1-m"><a href="/"><img src={ logo }></img></a></li>
         <li class="col-8 col-2-m hide-s"></li>
-        <li id="nav-home" class="link col-1 col-1-m hide-s"><Link to="/">Home</Link></li>
-        <li id="nav-about" class="link col-1 col-1-m col-1-s"><Link to="/About">About</Link></li>
-        <li id="nav-contact" class="link col-1 col-1-m col-1-s"><Link to="/Contact">Contact</Link></li>
+        <li id="nav-home" class="link col-1 col-1-m "><Link to="/">Home</Link></li>
+        <li id="nav-about" class="link col-1 col-1-m "><Link to="/About">About</Link></li>
+        <li id="nav-contact" class="link col-1 col-1-m "><Link to="/Contact">Contact</Link></li>
       </ul>
     </nav> 
     
