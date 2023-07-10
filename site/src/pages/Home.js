@@ -31,6 +31,7 @@ export default function Home(){
 
 
         <section class="projects">
+        <h1 class="name-text2 title-text"> Projects</h1>
             <div class="project grid center gap">  
                 <a href="https://github.com/CamH04/Decrypt-Website" class="col-8 col-6-m col-3-s project-image">
                     <img id="ui" src={Gif1} width="480" height="270" alt="help"></img>

@@ -250,6 +250,10 @@ ul.contact li a.social:hover img{
     display: flex;
     flex-direction: column;
   }
+  .nav-grid{
+    display: flex;
+    flex-direction: row;
+  }
   li{
     display: flex;
     justify-content: center;

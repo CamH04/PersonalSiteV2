@@ -12,7 +12,7 @@ function App() {
   return (
     <div>      
       <nav>
-      <ul class="grid">
+      <ul class="grid nav-grid">
         <li class="logo col-1 col-1-m"><a href="/"><img src={ logo }></img></a></li>
         <li class="col-8 col-2-m hide-s"></li>
         <li id="nav-home" class="link col-1 col-1-m "><Link to="/">Home</Link></li>
@@ -53,7 +53,7 @@ function App() {
         <div class="col-1 hide-m"></div>
         <div class="col-4 col-4-m col-3-s">
           <p>
-            Dedication and the willingness to go on is what seperates me from other programmers
+            "Pleasure in the job puts perfection in the work." - Aristotle
           </p>
           <ul class="contact">
             <li><Link to="/Contact" class="button">Get in touch</Link></li>
