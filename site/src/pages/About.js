@@ -29,19 +29,19 @@ export default function About (){
                 </div>
                 <div class="col-6 col-4-m col-3-s" data-aos="zoom-in-left" data-aos-duration="1200" >
                     <p class="big">
-                    Hi! I'm Cameron, a programmer from Hampshire who is currently based in Sunderland. I love to create and listen to music in my off time.
+                    Hi! I'm Cameron, a programmer from Hampshire, who is currently based in Sunderland. I love to create and listen to music in my off time.
                     </p>
                     <p class="big">
-                    I started programming in senior school and even back then i was programming heavily in my spare time. I learnt more and more, leading to where i am now. I love to experment with code and build a large varity of projects using any tech i can get my hands on.
+                    I started programming in senior school and even back then I was programming heavily in my spare time. I learnt more and more, leading to where I am now. I love to experiment with code and build a large variety of projects using any tech I can get my hands on.
                     </p>
                     <p class="big">
-                    I love creating website which are intuitve to the user, creating a nice environment for them to use 
+                    I love creating websites which is intuitive to the user, creating a nice environment for them to use
                     </p>
                     <p class="big">
-                    Im experianced in C# and the 3 expected languages (HTML/CSS/JavaScript) with React and Blazor being my Web Frameworks of choice
+                    I'm experienced in C# and the 3 expected languages (HTML/CSS/JavaScript) with React and Blazor being my Web Frameworks of choice
                     </p>
                     <p class="big">
-                    Tinkering around with software is fun but i also love to exepriment with hardware and electronics using Ardunio's and Esp's
+                    Tinkering around with software is fun, but I also love to experiment with hardware and electronics using Ardunio's and Esp's
                     </p>
                 </div>
                 <div class="col-12">
